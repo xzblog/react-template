@@ -1,13 +1,12 @@
 {
     "name": "{{name}}",
-    "version": "{version}",
+    "version": "{{version}}",
     "description": "{{description}}",
     "main": "index.js",
     "scripts": {
         "start": "webpack-dev-server --config config/webpack.config.dev.js --color --hot",
         "build": "webpack --config config/webpack.config.prod.js",
         "test": "echo \"Error: no test specified\" && exit 1",
-        "server": "nodemon server/server.js"
     },
     "keywords": [
         "webpack4",
